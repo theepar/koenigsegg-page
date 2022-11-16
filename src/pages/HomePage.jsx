@@ -1,5 +1,5 @@
 import { ArrowLink, Eyebrow, SectionHeading } from "../components/index.js";
-import { homeModels } from "../content/home.js";
+import { homeModels } from "../data/home.js";
 
 export function HomePage() {
   return (

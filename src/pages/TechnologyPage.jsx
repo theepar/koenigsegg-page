@@ -4,7 +4,7 @@ import {
   PageHero,
   SectionHeading,
 } from "../components/index.js";
-import { innovations } from "../content/technology.js";
+import { innovations } from "../data/technology.js";
 
 export function TechnologyPage() {
   return (

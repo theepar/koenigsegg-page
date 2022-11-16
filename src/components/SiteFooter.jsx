@@ -1,4 +1,4 @@
-import { footerLinks } from "../content/navigation.js";
+import { footerLinks } from "../data/navigation.js";
 
 export function SiteFooter() {
   return (

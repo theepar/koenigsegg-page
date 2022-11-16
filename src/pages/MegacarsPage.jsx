@@ -4,7 +4,7 @@ import {
   PageHero,
   SectionHeading,
 } from "../components/index.js";
-import { megacars } from "../content/megacars.js";
+import { megacars } from "../data/megacars.js";
 
 export function MegacarsPage() {
   return (

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { navigationLinks } from "../content/navigation.js";
+import { navigationLinks } from "../data/navigation.js";
 
 export function SiteHeader({ activePath }) {
   const [menuOpen, setMenuOpen] = useState(false);

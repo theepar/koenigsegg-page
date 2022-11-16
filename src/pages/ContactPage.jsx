@@ -5,7 +5,7 @@ import {
   PageHero,
   SectionHeading,
 } from "../components/index.js";
-import { contactMethods, createContactMailto } from "../content/contact.js";
+import { contactMethods, createContactMailto } from "../data/contact.js";
 
 export function ContactPage() {
   const [sent, setSent] = useState(false);

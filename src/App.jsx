@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { SiteFooter, SiteHeader } from "./components/index.js";
 import { getRoute, normalizePath } from "./routes.js";
-import "./styles.css";
+import "./index.css";
 
 export default function App() {
   const [path, setPath] = useState(() =>

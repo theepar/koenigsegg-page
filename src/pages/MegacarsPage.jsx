@@ -5,6 +5,7 @@ import {
   SectionHeading,
 } from "../components/index.js";
 import { megacars } from "../data/megacars.js";
+import { withBasePath } from "../utils/urls.js";
 
 export function MegacarsPage() {
   return (
@@ -19,7 +20,9 @@ export function MegacarsPage() {
           </>
         }
         description="A world where the impossible becomes the next benchmark."
-        image="/images/415e9234-Koenigsegg_20Jesko_20Absolut_20-_20Side_202.JPG"
+        image={withBasePath(
+          "/images/415e9234-Koenigsegg_20Jesko_20Absolut_20-_20Side_202.JPG",
+        )}
         imageAlt="Koenigsegg Jesko Absolut"
       />
       <section className="collection-section section-wrap">

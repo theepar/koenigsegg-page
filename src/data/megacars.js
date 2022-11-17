@@ -1,3 +1,5 @@
+import { withBasePath } from "../utils/urls.js";
+
 export const megacars = [
   {
     name: "CC850",
@@ -8,7 +10,7 @@ export const megacars = [
       ["9-speed", "Engage Shift"],
       ["50", "Celebration editions"],
     ],
-    image: "/images/c8c4d394-KenoZache_IMG_9418.jpg",
+    image: withBasePath("/images/c8c4d394-KenoZache_IMG_9418.jpg"),
     reverse: false,
   },
   {
@@ -20,7 +22,9 @@ export const megacars = [
       ["0.278 Cd", "Drag coefficient"],
       ["5.0L V8", "Twin turbo"],
     ],
-    image: "/images/415e9234-Koenigsegg_20Jesko_20Absolut_20-_20Side_202.JPG",
+    image: withBasePath(
+      "/images/415e9234-Koenigsegg_20Jesko_20Absolut_20-_20Side_202.JPG",
+    ),
     reverse: true,
   },
   {
@@ -32,7 +36,7 @@ export const megacars = [
       ["4 seats", "Room for everyone"],
       ["1,000 km", "Combined range"],
     ],
-    image: "/images/2f37ee53-KenoZache_IMG_9871_20_281_29.jpg",
+    image: withBasePath("/images/2f37ee53-KenoZache_IMG_9871_20_281_29.jpg"),
     reverse: false,
   },
 ];

@@ -1,6 +1,6 @@
 # Koenigsegg
 
-A single React application for the Koenigsegg home, megacar, technology, and contact pages.
+A responsive React recreation of the Koenigsegg 2025 homepage, with megacar, technology, and contact pages.
 
 ## Run locally
 
@@ -20,6 +20,8 @@ npm run build
 npm run preview
 ```
 
+Production build writes to `docs/` for GitHub Pages. Configure Pages to publish from `main` and `/docs`.
+
 ## Project structure
 
 - `src/pages` contains page layouts.
@@ -28,5 +30,6 @@ npm run preview
 - `src/routes.js` maps URL paths to React pages.
 - `src/index.css` contains shared responsive styles and device breakpoints.
 - `static/images` contains images used by the application.
+- `static/fonts` contains the Basel Grotesk and Gustavo fonts used by the 2025 design.
 
 Internal navigation works without reloading the page. Contact form opens the visitor's email application with a prepared message.

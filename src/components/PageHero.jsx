@@ -16,7 +16,9 @@ export function PageHero({
       <div className="page-hero-shade" />
       <div className="page-hero-content">
         <Eyebrow>{eyebrow}</Eyebrow>
-        <h1>{title}</h1>
+        <h1 data-motion-reveal className="motion-lines">
+          <span>{title}</span>
+        </h1>
         {description && <p>{description}</p>}
       </div>
       <span className="hero-index">01 — 04</span>

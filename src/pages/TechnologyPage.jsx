@@ -5,6 +5,7 @@ import {
   SectionHeading,
 } from "../components/index.js";
 import { innovations } from "../data/technology.js";
+import { withBasePath } from "../utils/urls.js";
 
 export function TechnologyPage() {
   return (
@@ -19,7 +20,9 @@ export function TechnologyPage() {
           </>
         }
         description="We question what can be done, then build what comes next."
-        image="/images/204f6fc2-home-05-featureblock-workers.jpg"
+        image={withBasePath(
+          "/images/204f6fc2-home-05-featureblock-workers.jpg",
+        )}
         imageAlt="Koenigsegg engineers at work"
       />
       <section className="technology-section section-wrap">

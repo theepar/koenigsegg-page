@@ -1,20 +1,34 @@
+import { withBasePath } from "../utils/urls.js";
+
 export const homeModels = [
   {
+    slug: "gemera",
     name: "Gemera",
-    type: "The Mega-GT",
-    image: "/images/2f37ee53-KenoZache_IMG_9871_20_281_29.jpg",
-    detail: "Four-seat freedom. Koenigsegg performance.",
+    headline: ["World’s first", "Mega GT for four"],
+    image: withBasePath("/images/c8c4d394-KenoZache_IMG_9418.jpg"),
+    href: "/megacars",
   },
   {
+    slug: "jesko-attack",
+    name: "Jesko Attack",
+    headline: ["Road legal", "track legend"],
+    image: withBasePath("/images/326bbaea-KenoZache_IMG_0577.jpg"),
+    href: "/megacars",
+  },
+  {
+    slug: "jesko-absolut",
     name: "Jesko Absolut",
-    type: "The fastest Koenigsegg ever",
-    image: "/images/415e9234-Koenigsegg_20Jesko_20Absolut_20-_20Side_202.JPG",
-    detail: "A pursuit of speed without compromise.",
+    headline: ["Fastest", "ever made"],
+    image: withBasePath(
+      "/images/415e9234-Koenigsegg_20Jesko_20Absolut_20-_20Side_202.JPG",
+    ),
+    href: "/megacars",
   },
   {
-    name: "Regera",
-    type: "The new era of grand touring",
-    image: "/images/326bbaea-KenoZache_IMG_0577.jpg",
-    detail: "Instant response. Effortless power.",
+    slug: "cc850",
+    name: "CC850",
+    headline: ["The driver’s", "dream"],
+    image: withBasePath("/images/b6285a89-KenoZache_IMG_1797.jpg"),
+    href: "/megacars",
   },
 ];
